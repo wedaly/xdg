@@ -1,4 +1,4 @@
-//go:build aix || darwin || dragonfly || freebsd || (js && wasm) || nacl || linux || netbsd || openbsd || solaris
+//go:build aix || darwin || dragonfly || freebsd || (js && wasm) || (wasip1 && wasm) || nacl || linux || netbsd || openbsd || solaris
 // +build aix darwin dragonfly freebsd js,wasm nacl linux netbsd openbsd solaris
 
 package pathutil_test
